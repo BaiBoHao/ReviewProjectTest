@@ -13,3 +13,4 @@
 # Entries
 
 - [Synthetic validation repository bootstrap](20260924T162934-bootstrap.md) - Safe Python baseline prepared for live PR validation.
+- [Review validation branch](20260924T163035-review-validation-branch.md) - Synthetic correctness, security, redaction, and resource-management findings prepared for PR review.
