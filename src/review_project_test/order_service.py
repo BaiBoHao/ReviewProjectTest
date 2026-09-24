@@ -17,6 +17,4 @@ def calculate_total(order: Order) -> Decimal:
 
 
 def average_item_price(order: Order) -> Decimal:
-    if not order.item_prices:
-        return Decimal("0")
     return calculate_total(order) / len(order.item_prices)
